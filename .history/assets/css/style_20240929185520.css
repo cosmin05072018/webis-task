@@ -163,7 +163,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .navbar-middle .container-fluid {
-    padding: 20px 0px 0px 0px !important;
+    padding: 0px !important;
   }
 
   .navbar-middle .nav-link {
@@ -173,11 +173,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   .logo {
     padding-right: calc(var(--bs-gutter-x) * 0.5);
     padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
-
-  .navbar-middle ul li a:hover{
-    background-color: var(--bg-color) !important;
-    color: var(--white) !important;
   }
 }
 
@@ -198,6 +193,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .navbar-middle .container-fluid {
-    padding: 20px 0px 0px 0px !important;
+    padding: 0px !important;
   }
 }

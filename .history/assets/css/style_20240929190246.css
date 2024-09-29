@@ -175,9 +175,9 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
 
-  .navbar-middle ul li a:hover{
-    background-color: var(--bg-color) !important;
-    color: var(--white) !important;
+  .navbar-middle ul li:hover{
+    background-color: var(--bg-color);
+    color: var(--white);
   }
 }
 

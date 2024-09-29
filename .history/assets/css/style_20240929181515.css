@@ -4,8 +4,8 @@
   --bg-color: #266e99;
   --white: #ffffff;
   --text-blue: #266e99;
-  --gray-color: #4f4f4f;
-  --border-bottom: 2px solid #266e991a;
+  --gray-color: #4F4F4F;
+  --border-bottom: 2px solid #266E991A;
 }
 
 * {
@@ -72,7 +72,7 @@
   background-color: var(--white);
 }
 
-.right-section .btn:last-child:hover {
+.right-section .btn:last-child:hover{
   color: var(--white);
   background-color: var(--bg-color);
 }
@@ -84,7 +84,7 @@
   border-radius: 0px 0px 5px 5px;
 }
 
-.right-section .dropdown .dropdown-menu li a {
+.right-section .dropdown .dropdown-menu li a{
   font-weight: 600;
   font-size: 12px;
   text-align: center;
@@ -101,15 +101,13 @@
 }
 
 .navbar-middle .logo img:hover {
-  transform: scale(
-    0.8
-  ); /* Redimensionează elementul la 90% din dimensiunea originală */
+  transform: scale(0.8); /* Redimensionează elementul la 90% din dimensiunea originală */
 }
 
 .location-section img:hover,
 .location-section p:hover,
 .mail-section img:hover,
-.mail-section p:hover {
+.mail-section p:hover{
   opacity: 0.5;
   cursor: default;
 }
@@ -117,7 +115,7 @@
 .location-section img,
 .location-section p,
 .mail-section img,
-.mail-section p {
+.mail-section p{
   transition: 0.5s ease-in-out;
 }
 
@@ -126,7 +124,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   color: var(--bg-color) !important;
 }
 
-.navbar-middle ul li a {
+.navbar-middle ul li a{
   font-weight: 600;
   color: var(--gray-color);
 }
@@ -135,69 +133,33 @@ button.dropdown-toggle[aria-expanded="true"] {
   border-left: 2px solid var(--bg-color); /* Aplică border-right pentru toate elementele, cu excepția primului */
 }
 
-.navbar-middle .active {
+.navbar-middle .active{
   color: var(--bg-color) !important;
 }
 
-.nav-link {
+.nav-link{
   padding: 0px 15px !important;
 }
 
-.hero {
+.hero{
   background-color: var(--bg-color);
 }
 
 @media (max-width: 1200px) {
   .left-section {
-    flex-direction: column;
+    flex-direction: column; /* sau row, depinde ce vrei să aplici */
     gap: 10px;
   }
 
-  .location-section,
-  .mail-section {
+  .location-section, .mail-section{
     padding: 0 !important;
-  }
-
-  .navbar-middle {
-    padding: 0px !important;
-  }
-
-  .navbar-middle .container-fluid {
-    padding: 20px 0px 0px 0px !important;
-  }
-
-  .navbar-middle .nav-link {
-    padding: 12px 14px !important;
-  }
-
-  .logo {
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
-
-  .navbar-middle ul li a:hover{
-    background-color: var(--bg-color) !important;
-    color: var(--white) !important;
   }
 }
 
 @media (max-width: 990px) {
-  .navbar-middle ul li {
-    border: none !important;
+
+  .navbar-middle ul li{
+    border: none !important;;
     border-bottom: var(--border-bottom) !important;
-  }
-
-  .navbar-middle ul li a {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20.43px;
-  }
-
-  .navbar-middle {
-    padding: 0px !important;
-  }
-
-  .navbar-middle .container-fluid {
-    padding: 20px 0px 0px 0px !important;
   }
 }

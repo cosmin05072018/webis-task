@@ -149,7 +149,7 @@ button.dropdown-toggle[aria-expanded="true"] {
 
 @media (max-width: 1200px) {
   .left-section {
-    flex-direction: column;
+    flex-direction: column; /* sau row, depinde ce vrei să aplici */
     gap: 10px;
   }
 
@@ -157,31 +157,13 @@ button.dropdown-toggle[aria-expanded="true"] {
   .mail-section {
     padding: 0 !important;
   }
-
-  .navbar-middle {
-    padding: 0px !important;
-  }
-
-  .navbar-middle .container-fluid {
-    padding: 20px 0px 0px 0px !important;
-  }
-
-  .navbar-middle .nav-link {
-    padding: 12px 14px !important;
-  }
-
-  .logo {
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-  }
-
-  .navbar-middle ul li a:hover{
-    background-color: var(--bg-color) !important;
-    color: var(--white) !important;
-  }
 }
 
 @media (max-width: 990px) {
+
+  .navbar-middle{
+    /* padding: 0px !important; */
+  }
   .navbar-middle ul li {
     border: none !important;
     border-bottom: var(--border-bottom) !important;
@@ -193,11 +175,16 @@ button.dropdown-toggle[aria-expanded="true"] {
     line-height: 20.43px;
   }
 
-  .navbar-middle {
-    padding: 0px !important;
+  .navbar-middle .nav .container-fluid {
+    padding: 0 !important;
   }
 
-  .navbar-middle .container-fluid {
-    padding: 20px 0px 0px 0px !important;
+  .navbar-middle .nav-link{
+    padding: 12px 14px !important;
   }
+
+  #navbarSupportedContent.show ~ .container-fluid {
+    background-color: blue; /* Setează fundalul albastru */
+  }
+
 }
