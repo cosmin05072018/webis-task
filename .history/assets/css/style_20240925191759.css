@@ -1,0 +1,63 @@
+:root{
+    --bg-color:#266E99;
+    --white: #ffffff;
+    --text-hover: #4F4F4F;
+    --text-blue: #266E99;
+}
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header{
+    height: 195px;
+}
+
+header .section-top{
+    background-color: var(--bg-color);
+    height: 79px;
+}
+*/
+
+nav p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+nav{
+    background-color: var(--bg-color);
+    height: 79px;
+}
+
+nav .nav-link{
+    border: 2px solid var(--white);
+}
+
+nav p, nav img{
+    transition: 0.6s ease-in-out;
+}
+
+nav p:hover, nav img:hover{
+   opacity: 0.4;
+}
+
+.collapse .navbar-nav{
+    gap: 16px;
+}
+
+.collapse .nav-link{
+    display: inline !important;
+    padding: 12px 15px 13px 15px !important;
+    transition: 0.3s;
+}
+
+.nav-item .btn-create-account{
+    color: var(--text-blue);
+    font-weight: 600;
+}
+
+.collapse .nav-link:nth-child(1):hover{
+    background-color: var(--white);
+    color: var(--text-blue) !important;
+}

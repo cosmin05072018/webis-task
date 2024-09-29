@@ -1,0 +1,7 @@
+:root{
+    --bg-color:#266E99;
+}
+
+header .section-top{
+    background-color: var(--bg-color);
+}

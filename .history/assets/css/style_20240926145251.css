@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --bg-color: #266e99;
+  --white: #ffffff;
+  --text-hover: #4f4f4f;
+  --text-blue: #266e99;
+}
+
+* {
+  font-family: Open Sans;
+}
+
+nav{
+    background-color: var(--bg-color);
+}

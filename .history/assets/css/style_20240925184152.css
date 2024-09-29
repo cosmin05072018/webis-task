@@ -1,0 +1,38 @@
+:root{
+    --bg-color:#266E99;
+    --white: #ffffff;
+}
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* header{
+    height: 195px;
+}
+
+header .section-top{
+    background-color: var(--bg-color);
+    height: 79px;
+}
+*/
+
+nav p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    transition: 1s ease-in-out;
+}
+
+nav{
+    background-color: var(--bg-color);
+    height: 79px;
+}
+
+nav .nav-link{
+    border: 1.5px solid var(--white);
+}
+
+nav p:hover{
+    color: gray !important;
+}
