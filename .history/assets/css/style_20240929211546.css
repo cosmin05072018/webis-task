@@ -104,7 +104,7 @@
 .navbar-middle .logo img:hover {
   transform: scale(
     0.8
-  );
+  ); /* Redimensionează elementul la 90% din dimensiunea originală */
 }
 
 .location-section img:hover,
@@ -154,11 +154,6 @@ button.dropdown-toggle[aria-expanded="true"] {
     gap: 10px;
   }
 
-  button.dropdown-toggle[aria-expanded="true"] {
-    background-color: var(--bg-color) !important;
-    color: var(--white) !important;
-  }
-
   .location-section,
   .mail-section {
     padding: 0 !important;
@@ -177,16 +172,12 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding: 12px 14px !important;
   }
 
-  .navbar-middle ul ul{
-    margin-left: 20px !important;
+  .navbar-middle ul ul li{
+    border: none !important;
   }
 
   .navbar-middle ul ul li a:hover{
-    color: var(--bg-color);
-  }
-
-  .navbar-middle ul ul li{
-    border: none !important;
+    color: var(--bg-color) !important;
   }
 
   .logo {
@@ -199,8 +190,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     height: 32.98px;
   }
 
-  .navbar-middle ul li .nav-link:hover,
-  .navbar-middle ul button:hover {
+  .navbar-middle ul li a:hover {
     background-color: var(--bg-color) !important;
     color: var(--white) !important;
   }

@@ -181,10 +181,6 @@ button.dropdown-toggle[aria-expanded="true"] {
     margin-left: 20px !important;
   }
 
-  .navbar-middle ul ul li a:hover{
-    color: var(--bg-color);
-  }
-
   .navbar-middle ul ul li{
     border: none !important;
   }
@@ -199,7 +195,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     height: 32.98px;
   }
 
-  .navbar-middle ul li .nav-link:hover,
+  .navbar-middle ul li a:hover,
   .navbar-middle ul button:hover {
     background-color: var(--bg-color) !important;
     color: var(--white) !important;

@@ -104,7 +104,7 @@
 .navbar-middle .logo img:hover {
   transform: scale(
     0.8
-  );
+  ); /* Redimensionează elementul la 90% din dimensiunea originală */
 }
 
 .location-section img:hover,
@@ -154,11 +154,6 @@ button.dropdown-toggle[aria-expanded="true"] {
     gap: 10px;
   }
 
-  button.dropdown-toggle[aria-expanded="true"] {
-    background-color: var(--bg-color) !important;
-    color: var(--white) !important;
-  }
-
   .location-section,
   .mail-section {
     padding: 0 !important;
@@ -169,24 +164,11 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .navbar-middle .container-fluid {
-    padding: 10px 0px 10px 0px !important;
+    padding: 20px 0px 0px 0px !important;
   }
 
-  .navbar-middle .nav-link,
-  .navbar-middle ul button {
+  .navbar-middle .nav-link {
     padding: 12px 14px !important;
-  }
-
-  .navbar-middle ul ul{
-    margin-left: 20px !important;
-  }
-
-  .navbar-middle ul ul li a:hover{
-    color: var(--bg-color);
-  }
-
-  .navbar-middle ul ul li{
-    border: none !important;
   }
 
   .logo {
@@ -199,14 +181,9 @@ button.dropdown-toggle[aria-expanded="true"] {
     height: 32.98px;
   }
 
-  .navbar-middle ul li .nav-link:hover,
-  .navbar-middle ul button:hover {
+  .navbar-middle ul li a:hover {
     background-color: var(--bg-color) !important;
     color: var(--white) !important;
-  }
-
-  .navbar-middle ul li a{
-    transition: 0.2s ease-in-out;
   }
 
   .bg-tablet-mobile {
@@ -216,26 +193,15 @@ button.dropdown-toggle[aria-expanded="true"] {
 }
 
 @media (max-width: 990px) {
-  .navbar-middle ul li,
-  .navbar-middle ul button {
+  .navbar-middle ul li {
     border: none !important;
     border-bottom: var(--border-bottom) !important;
   }
 
-  .navbar-middle ul button{
-    width: 100%;
-    text-align: left;
-  }
-
-  .navbar-middle ul li a,
-  .navbar-middle .d-lg-none button {
+  .navbar-middle ul li a {
     font-size: 15px;
     font-weight: 600;
     line-height: 20.43px;
-  }
-
-  .navbar-middle .d-lg-none button{
-    border: none;
   }
 
   .navbar-middle {
@@ -243,6 +209,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .navbar-middle .container-fluid {
-    padding: 10px 0px 10px 0px !important;
+    padding: 20px 0px 0px 0px !important;
   }
 }

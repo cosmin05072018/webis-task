@@ -155,8 +155,8 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   button.dropdown-toggle[aria-expanded="true"] {
-    background-color: var(--bg-color) !important;
-    color: var(--white) !important;
+    background-color: var(--white) !important;
+    color: var(--bg-color) !important;
   }
 
   .location-section,
@@ -177,14 +177,6 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding: 12px 14px !important;
   }
 
-  .navbar-middle ul ul{
-    margin-left: 20px !important;
-  }
-
-  .navbar-middle ul ul li a:hover{
-    color: var(--bg-color);
-  }
-
   .navbar-middle ul ul li{
     border: none !important;
   }
@@ -199,7 +191,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     height: 32.98px;
   }
 
-  .navbar-middle ul li .nav-link:hover,
+  .navbar-middle ul li a:hover,
   .navbar-middle ul button:hover {
     background-color: var(--bg-color) !important;
     color: var(--white) !important;
