@@ -163,22 +163,11 @@ button.dropdown-toggle[aria-expanded="true"] {
   transition: 0.5s ease-in;
 }
 
-.autentification{
-  border: 2px solid var(--bg-color) !important;
-  background-color: var(--bg-color);
-  color: var(--white);
-  font-weight: 800;
-  font-family: Open Sans;
-  font-size: 15px;
-  padding: 12px 20px 13px 15px;
-  transition: 0.5s ease-in;
-}
-
-.create-account:hover,
-.autentification:hover  {
+.create-account:hover{
   background-color: var(--gray-color);
   color: var(--white);
-  border: 2px solid var(--gray-color) !important;}
+  border: var(--gray-color) !important;
+}
 
 @media (max-width: 1200px) {
   .left-section {

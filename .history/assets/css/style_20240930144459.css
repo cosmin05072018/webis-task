@@ -178,7 +178,8 @@ button.dropdown-toggle[aria-expanded="true"] {
 .autentification:hover  {
   background-color: var(--gray-color);
   color: var(--white);
-  border: 2px solid var(--gray-color) !important;}
+  /* border: var(--gray-color) !important; */
+}
 
 @media (max-width: 1200px) {
   .left-section {

@@ -102,7 +102,9 @@
 }
 
 .navbar-middle .logo img:hover {
-  transform: scale(0.8);
+  transform: scale(
+    0.8
+  );
 }
 
 .location-section img:hover,
@@ -147,38 +149,10 @@ button.dropdown-toggle[aria-expanded="true"] {
 }
 
 .right-section ul li .dropdown-item:hover,
-.nav-item .nav-link:hover {
+.nav-item .nav-link:hover{
   color: var(--bg-color);
   background: none;
 }
-
-.create-account {
-  border: 2px solid var(--bg-color) !important;
-  background-color: var(--white);
-  color: var(--bg-color);
-  font-weight: 800;
-  font-family: Open Sans;
-  font-size: 15px;
-  padding: 12px 20px 13px 15px;
-  transition: 0.5s ease-in;
-}
-
-.autentification{
-  border: 2px solid var(--bg-color) !important;
-  background-color: var(--bg-color);
-  color: var(--white);
-  font-weight: 800;
-  font-family: Open Sans;
-  font-size: 15px;
-  padding: 12px 20px 13px 15px;
-  transition: 0.5s ease-in;
-}
-
-.create-account:hover,
-.autentification:hover  {
-  background-color: var(--gray-color);
-  color: var(--white);
-  border: 2px solid var(--gray-color) !important;}
 
 @media (max-width: 1200px) {
   .left-section {
@@ -209,16 +183,15 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding: 12px 14px !important;
   }
 
-  .navbar-middle ul ul {
+  .navbar-middle ul ul{
     margin-left: 20px !important;
   }
 
-  .navbar-middle ul ul li a:hover {
-    color: var(--bg-color);
-    background: none;
+  .navbar-middle ul ul li a:hover{
+    /* color: var(--bg-color); */
   }
 
-  .navbar-middle ul ul li {
+  .navbar-middle ul ul li{
     border: none !important;
   }
 
@@ -238,7 +211,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     color: var(--white) !important;
   }
 
-  .navbar-middle ul li a {
+  .navbar-middle ul li a{
     transition: 0.2s ease-in-out;
   }
 
@@ -255,7 +228,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     border-bottom: var(--border-bottom) !important;
   }
 
-  .navbar-middle ul button {
+  .navbar-middle ul button{
     width: 100%;
     text-align: left;
   }
@@ -267,7 +240,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     line-height: 20.43px;
   }
 
-  .navbar-middle .d-lg-none button {
+  .navbar-middle .d-lg-none button{
     border: none;
   }
 
