@@ -148,8 +148,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   background-color: var(--bg-color);
 }
 
-.right-section ul li .dropdown-item:hover,
-.nav-item .nav-link:hover{
+.right-section .ul .li .dropdown-item:hover{
   color: var(--bg-color);
   background: none;
 }
