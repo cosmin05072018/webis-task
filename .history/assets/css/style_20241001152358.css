@@ -193,19 +193,20 @@ button.dropdown-toggle[aria-expanded="true"] {
 }
 
 .hero-section .left-section {
-  padding: 70px 0px 70px 70px !important;
+  padding: 70px 0px 70px 100px !important;
 }
 
 .right-section img {
   position: absolute !important;
   bottom: 0px;
   right: 0px;
-  width: 65%;
+  width: 63%;
 }
 
 .left-section .buttons a {
   font-weight: 600;
   padding: 17px;
+
   transition: 0.5s linear;
 }
 

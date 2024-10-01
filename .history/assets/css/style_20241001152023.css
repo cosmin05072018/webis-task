@@ -180,55 +180,53 @@ button.dropdown-toggle[aria-expanded="true"] {
 .hero-section {
   position: relative;
   border-radius: 1rem !important;
-  background: linear-gradient(274.79deg, #266e99 5.12%, #0f4464 94.99%);
+  background: linear-gradient(274.79deg, #266E99 5.12%, #0F4464 94.99%);
 }
 
-.title-hero {
+.title-hero{
   font-weight: 700;
   font-size: 70px;
 }
 
-.hero-section .subtitle {
+.hero-section .subtitle{
   font-size: 30px;
 }
 
-.hero-section .left-section {
-  padding: 70px 0px 70px 70px !important;
+.hero-section .left-section{
+  padding: 70px 0px 70px 100px !important;
 }
 
 .right-section img {
   position: absolute !important;
   bottom: 0px;
   right: 0px;
-  width: 65%;
+  width: 63%;
 }
 
-.left-section .buttons a {
+.left-section .buttons a{
   font-weight: 600;
-  padding: 17px;
-  transition: 0.5s linear;
 }
 
-.left-section .buttons a:nth-child(1) {
+.left-section .buttons a:nth-child(1){
   color: var(--bg-color);
   background-color: var(--white);
 }
 
-.left-section .buttons a:nth-child(2) {
+.left-section .buttons a:nth-child(2){
   color: var(--white);
   background-color: var(--bg-color);
 }
 
-.left-section .buttons a:nth-child(1):hover {
-  background: none !important;
+.left-section .buttons a:nth-child(1):hover{
+  background-color: var(--bg-color);
   color: var(--white);
-  border: 1px solid var(--white);
 }
 
-.left-section .buttons a:nth-child(2):hover {
+.left-section .buttons a:nth-child(2):hover{
   background-color: var(--white);
   color: var(--bg-color);
 }
+
 
 @media (max-width: 1200px) {
   .left-section {
