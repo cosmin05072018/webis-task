@@ -372,12 +372,12 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .hero-section .left-section .buttons a:nth-child(2){
-    background: none ;
+    background: none !important;
     border: 1px solid var(--white);
   }
 
   .hero-section .left-section .buttons a:nth-child(2):hover{
-    background: var(--white) !important;
+    background: var(--white);
   }
 
   .hero-section .left-section{
