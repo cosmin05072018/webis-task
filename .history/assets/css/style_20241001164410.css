@@ -205,7 +205,7 @@ button.dropdown-toggle[aria-expanded="true"] {
 
 .left-section .buttons a {
   font-weight: 600;
-  padding: 17px;
+  /* padding: 17px; */
   transition: 0.5s linear;
 }
 
@@ -381,5 +381,9 @@ button.dropdown-toggle[aria-expanded="true"] {
 
   .hero-section .left-section{
     padding: 50px 0px 0px 30px !important;
+  }
+
+  .hero-section .right-section{
+    display: none;
   }
 }

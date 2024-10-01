@@ -374,12 +374,11 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding: 15px 17px !important;
   }
 
-  .hero-section .left-section .buttons a:nth-child(2){
-    background: none !important;
-    border: 1px solid var(--white);
-  }
-
   .hero-section .left-section{
     padding: 50px 0px 0px 30px !important;
+  }
+
+  .hero-section .right-section{
+    display: none;
   }
 }

@@ -382,4 +382,8 @@ button.dropdown-toggle[aria-expanded="true"] {
   .hero-section .left-section{
     padding: 50px 0px 0px 30px !important;
   }
+
+  .hero-section .right-section{
+    display: none;
+  }
 }

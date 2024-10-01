@@ -382,4 +382,16 @@ button.dropdown-toggle[aria-expanded="true"] {
   .hero-section .left-section{
     padding: 50px 0px 0px 30px !important;
   }
+
+  .hero-section .left-section{
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    background-image: url('../images/hero-image.png');
+  }
+
+  .hero-section .right-section{
+    display: none;
+  }
 }

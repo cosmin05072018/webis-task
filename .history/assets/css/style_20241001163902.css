@@ -366,20 +366,20 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .hero-section .left-section .buttons{
-   flex-direction: column-reverse !important;
+   flex-direction: column !important;
   }
 
   .hero-section .left-section .buttons a{
     font-size: 15px !important;
     padding: 15px 17px !important;
-  }
-
-  .hero-section .left-section .buttons a:nth-child(2){
-    background: none !important;
-    border: 1px solid var(--white);
+    flex-direction: row-reverse;
   }
 
   .hero-section .left-section{
     padding: 50px 0px 0px 30px !important;
+  }
+
+  .hero-section .right-section{
+    display: none;
   }
 }
