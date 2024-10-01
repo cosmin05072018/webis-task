@@ -371,10 +371,6 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding: 15px 17px !important;
   }
 
-  .hero-section .left-section .buttons a:nth-child(1){
-    width: 90%;
-  }
-
   .hero-section .left-section .buttons a:nth-child(2){
     background: none ;
     border: 1px solid var(--white);
