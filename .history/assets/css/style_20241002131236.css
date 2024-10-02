@@ -238,8 +238,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   text-align: center !important;
 }
 
-.steper .step .step-green,
-.steper .step .date .green{
+.steper .step .step-green{
   color: var(--green);
 }
 

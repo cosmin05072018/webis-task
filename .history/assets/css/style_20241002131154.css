@@ -235,12 +235,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   color: var(--bg-color);
   font-weight: 600;
   font-size: 25px !important;
-  text-align: center !important;
-}
-
-.steper .step .step-green,
-.steper .step .date .green{
-  color: var(--green);
+  text-align: center !important;;
 }
 
 .steper .step .checked{

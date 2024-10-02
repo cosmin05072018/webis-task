@@ -238,9 +238,8 @@ button.dropdown-toggle[aria-expanded="true"] {
   text-align: center !important;
 }
 
-.steper .step .step-green,
-.steper .step .date .green{
-  color: var(--green);
+.steper .step .green{
+  color: var(--bg-color);
 }
 
 .steper .step .checked{

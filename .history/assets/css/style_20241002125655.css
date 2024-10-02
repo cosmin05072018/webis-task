@@ -7,7 +7,6 @@
   --gray-color: #4f4f4f;
   --border-bottom: 2px solid #266e991a;
   --light-gray: #e8eef2;
-  --green: #17C38C;
 }
 
 * {
@@ -229,28 +228,11 @@ button.dropdown-toggle[aria-expanded="true"] {
 .left-section .buttons a:nth-child(2):hover {
   background-color: var(--white) !important;
   color: var(--bg-color);
+  text-align: center;
 }
 
 .steper .step p{
   color: var(--bg-color);
-  font-weight: 600;
-  font-size: 25px !important;
-  text-align: center !important;
-}
-
-.steper .step .step-green,
-.steper .step .date .green{
-  color: var(--green);
-}
-
-.steper .step .checked{
-  width: 57px !important;
-  height: 57px !important;
-}
-
-.steper .step .date{
-  color: var(--bg-color);
-  font-size: 15px;
   font-weight: 600;
 }
 
