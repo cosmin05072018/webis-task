@@ -281,7 +281,10 @@ button.dropdown-toggle[aria-expanded="true"] {
   height: 130px;
   border-radius: 50%;
   box-shadow: 0px 0px 16px 0px #266E9933;
-  margin-top: -20%;
+}
+
+.domains-projects .cards .card img{
+ margin-top: -20%;
 }
 
 .domains-projects .cards .card h3{

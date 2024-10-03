@@ -4,7 +4,7 @@
   --bg-color: #266e99;
   --white: #ffffff;
   --text-blue: #266e99;
-  --dark-gray: #4f4f4f;
+  --dark-gray: rgba(79, 79, 79, 1);
   --gray-color: #4f4f4f;
   --border-bottom: 2px solid #266e991a;
   --light-gray: #e8eef2;
@@ -272,16 +272,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   background-color: var(--bg-color);
   border-radius: 10px;
   width: 30%;
-}
-
-.domains-projects .cards .card .domain-image{
-  background-color: var(--white);
-  padding: 12px;
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 16px 0px #266E9933;
-  margin-top: -20%;
 }
 
 .domains-projects .cards .card h3{
