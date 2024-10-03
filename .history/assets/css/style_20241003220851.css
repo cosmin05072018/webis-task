@@ -273,18 +273,12 @@ button.dropdown-toggle[aria-expanded="true"] {
 }
 
 .domains-projects .card .domain-image {
-  position: absolute;
   background-color: var(--white);
   border-radius: 50%;
   padding: 25px;
   width: 130px;
   height: 130px;
-  margin-top: -300px;
-  transition: 0.3s linear;
-}
-
-.domains-projects .card:hover .domain-image {
-  margin-top: -320px;
+  margin-top: -130px;
 }
 
 .domains-projects .card p {
@@ -298,7 +292,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   border: 2px solid var(--white);
   color: var(--white);
   font-size: 15px;
-  transition: 0.3s linear;
+  transition: 0.5s linear;
 }
 
 .domains-projects .card:hover a {
@@ -313,13 +307,14 @@ button.dropdown-toggle[aria-expanded="true"] {
   margin-bottom: 5px;
   color: var(--gray-color);
   display: none;
-  transition: 0.3s linear;
+  transition: 0.5s linear;
 }
 
-.domains-projects .card:hover .bg-domain-image {
+.domains-projects .card:hover .bg-domain-image{
   display: block;
-  transition: 1s;
 }
+
+
 
 @media (max-width: 1200px) {
   .left-section {

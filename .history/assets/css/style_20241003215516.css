@@ -8,7 +8,7 @@
   --gray-color: #4f4f4f;
   --border-bottom: 2px solid #266e991a;
   --light-gray: #e8eef2;
-  --green: #17c38c;
+  --green: #17C38C;
   --light-gray: rgba(38, 110, 153, 0.05);
 }
 
@@ -233,35 +233,35 @@ button.dropdown-toggle[aria-expanded="true"] {
   color: var(--bg-color);
 }
 
-.steper .step .title {
+.steper .step .title{
   color: var(--bg-color);
   font-weight: 600;
   font-size: 25px !important;
   text-align: center !important;
 }
 
-.steper .step .date {
+.steper .step .date{
   color: var(--bg-color);
   font-size: 15px;
   font-weight: 600;
 }
 
-.steper .step .circle {
+.steper .step .circle{
   height: 105px;
 }
 
-.domains-projects {
+.domains-projects{
   background-color: var(--light-gray);
   border-radius: 40px;
 }
 
-.domains-projects h2 {
+.domains-projects h2{
   color: var(--bg-color);
   font-weight: 700;
   font-size: 40px;
 }
 
-.domains-projects p {
+.domains-projects p{
   color: var(--dark-gray);
   font-size: 15px;
   font-weight: 400;
@@ -272,53 +272,36 @@ button.dropdown-toggle[aria-expanded="true"] {
   background-color: var(--bg-color);
 }
 
-.domains-projects .card .domain-image {
-  position: absolute;
+.domains-projects .card .domain-image{
   background-color: var(--white);
   border-radius: 50%;
   padding: 25px;
   width: 130px;
   height: 130px;
-  margin-top: -300px;
-  transition: 0.3s linear;
+  margin-top: -130px;
 }
 
-.domains-projects .card:hover .domain-image {
-  margin-top: -320px;
-}
-
-.domains-projects .card p {
+.domains-projects .card p{
   color: var(--white);
   text-align: center;
   width: 100%;
   font-size: 25px;
 }
 
-.domains-projects .card a {
+.domains-projects .card a{
   border: 2px solid var(--white);
   color: var(--white);
   font-size: 15px;
-  transition: 0.3s linear;
+  transition: 0.5s linear ;
 }
 
-.domains-projects .card:hover a {
+.domains-projects .card a:hover{
   color: var(--bg-color);
   background-color: var(--white);
 }
 
-.domains-projects .card .bg-domain-image {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin-bottom: 5px;
-  color: var(--gray-color);
-  display: none;
-  transition: 0.3s linear;
-}
-
-.domains-projects .card:hover .bg-domain-image {
-  display: block;
-  transition: 1s;
+.domains-projects .card .bg-domain-image{
+  
 }
 
 @media (max-width: 1200px) {
@@ -388,7 +371,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     height: 100px !important;
   }
 
-  .hero-section {
+  .hero-section{
     border-radius: 0px !important;
     width: 100%;
     max-width: 100%;
@@ -396,16 +379,16 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding-left: 0;
   }
 
-  .hero-section .left-section {
+  .hero-section .left-section{
     gap: 1px !important;
     z-index: 1;
   }
 
-  .steper {
+  .steper{
     flex-wrap: wrap !important;
   }
 
-  .step {
+  .step{
     flex: 0 0 50%;
   }
 }
@@ -441,7 +424,7 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding: 10px 0px 10px 0px !important;
   }
 
-  .hero-section {
+  .hero-section{
     border-radius: 0px !important;
     width: 100%;
     max-width: 100%;
@@ -449,46 +432,46 @@ button.dropdown-toggle[aria-expanded="true"] {
     padding-left: 0;
   }
 
-  .hero-section .left-section h1 {
+  .hero-section .left-section h1{
     font-size: 40px !important;
   }
 
-  .hero-section .left-section .subtitle {
+  .hero-section .left-section .subtitle{
     font-size: 18px !important;
   }
 
-  .hero-section .left-section .content {
+  .hero-section .left-section .content{
     font-size: 14px !important;
   }
 
-  .hero-section .left-section .buttons {
-    flex-direction: column-reverse !important;
+  .hero-section .left-section .buttons{
+   flex-direction: column-reverse !important;
   }
 
-  .hero-section .left-section .buttons a {
+  .hero-section .left-section .buttons a{
     font-size: 15px !important;
     padding: 15px 17px !important;
   }
 
-  .hero-section .left-section .buttons a:nth-child(1) {
+  .hero-section .left-section .buttons a:nth-child(1){
     width: 70%;
   }
 
-  .hero-section .left-section .buttons a:nth-child(2) {
+  .hero-section .left-section .buttons a:nth-child(2){
     width: 90%;
-    background: none;
+    background: none ;
     border: 1px solid var(--white);
   }
 
-  .hero-section .left-section .buttons a:nth-child(2):hover {
+  .hero-section .left-section .buttons a:nth-child(2):hover{
     background: var(--white) !important;
   }
 
-  .hero-section .left-section {
+  .hero-section .left-section{
     padding: 50px 0px 180px 30px !important;
   }
 
-  .hero-section .right-section img {
+  .hero-section .right-section img{
     width: 90%;
   }
 }
