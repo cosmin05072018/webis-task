@@ -157,7 +157,7 @@
       <div class="col-12">Afișarea</div>
       <div class="col-12">rezultatelor</div>
     </div>
-    <div class="circle d-flex align-items-center justify-content-center">
+    <div class="circle">
       <img src="./assets/images/finish-step.svg" alt="finish-step" class="finish-step py-4">
     </div>
     <div class="date">
@@ -166,6 +166,40 @@
     </div>
   </div>
 </div>
+<div class="parent">
+  <div class="child">Child 1</div>
+  <div class="child">Child 2</div>
+  <div class="child">Child 3</div>
+  <div class="child">Child 4</div>
+</div>
+
+<style>
+  /* CSS general */
+.parent {
+  display: flex;           /* Utilizează flexbox pentru aranjarea copiilor */
+  flex-wrap: nowrap;      /* Toate elementele pe un singur rând pe ecrane mari */
+}
+
+.child {
+  flex: 1;                /* Fiecare child ocupă un spațiu egal pe rând */
+  padding: 10px;         /* Spațiu interior pentru a face div-urile mai vizibile */
+  box-sizing: border-box; /* Include padding-ul în lățimea totală */
+  border: 1px solid #000; /* Bordura pentru vizibilitate */
+}
+
+/* Media query pentru ecrane mici (mobile) */
+@media (max-width: 768px) {
+  .parent {
+    flex-wrap: wrap;      /* Permite împachetarea pe rânduri */
+  }
+
+  .child {
+    flex: 0 0 48%;        /* Fiecare child va ocupa aproximativ 48% din lățime */
+    margin: 1%;           /* Spațiu între div-uri */
+  }
+}
+
+</style>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

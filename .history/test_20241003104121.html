@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Stilul pentru containerul fiecărui pas */
+    .step {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Imaginea checked-step */
+    .checked-step,
+    .loader-step,
+    .finish-step {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Stil pentru bara de progres între imagine și date */
+    .step-img + .date::before {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 4px;
+      height: 50px; /* Înălțimea barei de progres */
+      background-color: #4caf50; /* Culoarea barei de progres */
+      z-index: -1;
+    }
+
+    /* Adăugăm progresul doar dacă există imagine checked */
+    .checked-step + .date::before {
+      background-color: #4caf50; /* Verde pentru stadiile complete */
+    }
+
+    /* Adăugăm progres pentru imaginea loader */
+    .loader-step + .date::before {
+      background-color: #ffc107; /* Galben pentru stadiul curent */
+    }
+
+    /* Adăugăm progres pentru imaginea de final */
+    .finish-step + .date::before {
+      background-color: #4caf50; /* Verde pentru finalizare */
+    }
+
+    /* Stilizare generală */
+    .step-img {
+      width: 50px;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .date {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    /* Stil pentru containerul principal */
+    .steper {
+      gap: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container steper mt-3 d-flex align-items-center justify-content-around mt-5">
+    <!-- Step 1 -->
+    <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
+      <img class="step-img" src="./assets/images/depunere-proiect.svg" alt="depunere-proiect">
+      <div class="title row">
+        <div class="col-12">Depunerea</div>
+        <div class="col-12">proiectelor</div>
+      </div>
+      <img src="./assets/images/checked.svg" alt="checked" class="checked-step">
+      <div class="date">
+        <div class="start">01.09.2024</div>
+        <div class="finish">27.09.2024</div>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
+      <img class="step-img" src="./assets/images/analiza-proiectelor.svg" alt="analiza-proiectelor">
+      <div class="title row">
+        <div class="col-12">Analiza</div>
+        <div class="col-12">proiectelor</div>
+      </div>
+      <img src="./assets/images/checked.svg" alt="checked" class="checked-step">
+      <div class="date">
+        <div class="start">01.09.2024</div>
+        <div class="finish">27.09.2024</div>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
+      <img class="step-img" src="./assets/images/votarea-proiectelor.svg" alt="votarea-proiectelor">
+      <div class="title row">
+        <div class="col-12">Votarea</div>
+        <div class="col-12">proiectelor</div>
+      </div>
+      <img src="./assets/images/loader.svg" alt="loader" class="loader-step">
+      <div class="date">
+        <div class="start">01.09.2024</div>
+        <div class="finish">27.09.2024</div>
+      </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
+      <img class="step-img" src="./assets/images/afisarea-rezultatelor.svg" alt="afisarea-rezultatelor">
+      <div class="title row">
+        <div class="col-12">Afișarea</div>
+        <div class="col-12">rezultatelor</div>
+      </div>
+      <img src="./assets/images/finish-step.svg" alt="finish-step" class="finish-step">
+      <div class="date">
+        <div class="start">01.09.2024</div>
+        <div class="finish">27.09.2024</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

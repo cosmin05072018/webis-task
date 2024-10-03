@@ -231,6 +231,24 @@ button.dropdown-toggle[aria-expanded="true"] {
   color: var(--bg-color);
 }
 
+/* Asigură că containerul părinte are înălțimea setată */
+.steper {
+  height: 100vh; /* Ocupă întreaga înălțime a viewport-ului */
+  display: flex;
+  align-items: stretch; /* Asigură că toate elementele copil se întind pe înălțimea maximă */
+}
+
+/* Fiecare div copil ocupă întreaga înălțime a containerului */
+.step {
+  flex-grow: 1; /* Permite fiecărui div să se extindă pe înălțime */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Ajustează conținutul pentru a umple spațiul */
+  padding: 10px;
+}
+
+
 .steper .step .title{
   color: var(--bg-color);
   font-weight: 600;
@@ -242,10 +260,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   color: var(--bg-color);
   font-size: 15px;
   font-weight: 600;
-}
-
-.steper .step .circle{
-  height: 105px;
 }
 
 @media (max-width: 1200px) {
@@ -326,14 +340,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   .hero-section .left-section{
     gap: 1px !important;
     z-index: 1;
-  }
-
-  .steper{
-    flex-wrap: wrap !important;
-  }
-
-  .step{
-    flex: 0 0 50%;
   }
 }
 

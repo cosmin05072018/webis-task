@@ -243,9 +243,39 @@ button.dropdown-toggle[aria-expanded="true"] {
   font-size: 15px;
   font-weight: 600;
 }
+.step {
+  position: relative;
+}
 
-.steper .step .circle{
-  height: 105px;
+/* Imaginea checked-step cu barele de progres */
+.checked-step {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+/* Bara de progres din stânga */
+.checked-step::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -50px; /* Ajustează după preferințe */
+  width: 40px;
+  height: 5px;
+  background-color: #4caf50; /* Verde pentru progres */
+  transform: translateY(-50%);
+}
+
+/* Bara de progres din dreapta */
+.checked-step::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -50px; /* Ajustează după preferințe */
+  width: 40px;
+  height: 5px;
+  background-color: #4caf50; /* Verde pentru progres */
+  transform: translateY(-50%);
 }
 
 @media (max-width: 1200px) {
@@ -326,14 +356,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   .hero-section .left-section{
     gap: 1px !important;
     z-index: 1;
-  }
-
-  .steper{
-    flex-wrap: wrap !important;
-  }
-
-  .step{
-    flex: 0 0 50%;
   }
 }
 

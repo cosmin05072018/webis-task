@@ -244,8 +244,23 @@ button.dropdown-toggle[aria-expanded="true"] {
   font-weight: 600;
 }
 
-.steper .step .circle{
-  height: 105px;
+.md-step-bar-left,
+.md-step-bar-right {
+	position:absolute;
+	top:36px;
+	height:1px;
+	border-top:1px solid #DDDDDD;
+}
+
+.md-step-bar-right {
+	right:0;
+	left:50%;
+	margin-left:20px;
+}
+.md-step-bar-left {
+	left:0;
+	right:50%;
+	margin-right:20px;
 }
 
 @media (max-width: 1200px) {
@@ -326,14 +341,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   .hero-section .left-section{
     gap: 1px !important;
     z-index: 1;
-  }
-
-  .steper{
-    flex-wrap: wrap !important;
-  }
-
-  .step{
-    flex: 0 0 50%;
   }
 }
 

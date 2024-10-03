@@ -327,14 +327,6 @@ button.dropdown-toggle[aria-expanded="true"] {
     gap: 1px !important;
     z-index: 1;
   }
-
-  .steper{
-    flex-wrap: wrap !important;
-  }
-
-  .step{
-    flex: 0 0 50%;
-  }
 }
 
 @media (max-width: 990px) {

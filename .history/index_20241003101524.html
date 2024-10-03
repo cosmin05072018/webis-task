@@ -114,52 +114,90 @@
     <img src="./assets/images/hero-image.png" alt="hero-image">
   </div>
 </div>
+<!-- <div class="container steper mt-3 d-flex align-items-center justify-content-around py-5">
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-4">
+    <img class="step-img" src="./assets/images/depunere-proiecte.png" alt="depunere-proiecte">
+    <p>Depunerea <br> proiectelor</p>
+    <img class="checked" src="./assets/images/checked.png" alt="checked">
+    <div class="date d-flex flex-column">
+      <div class="start">01.09.2024</div>
+      <div class="finish">27.09.2024</div>
+    </div>
+  </div>
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-4">
+    <img class="step-img" src="./assets/images/analiza proiectelor.png" alt="analiza proiectelor">
+    <p>Analiza <br> proiectelor</p>
+    <img class="checked" src="./assets/images/checked.png" alt="checked">
+    <div class="date d-flex flex-column">
+      <div class="start">01.11.2024</div>
+      <div class="finish">27.11.2024</div>
+    </div>
+  </div>
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-4">
+    <img class="step-img" src="./assets/images/votarea proiectelor.png" alt="votarea proiectelor">
+    <p class="step-green">Votarea <br> proiectelor</p>
+    <img class="loader" src="./assets/images/loader.png" alt="loader">
+    <div class="date d-flex flex-column green">
+      <div class="start green">01.12.2024</div>
+      <div class="finish green">27.12.2024</div>
+    </div>
+  </div>
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-4">
+    <img class="step-img" src="./assets/images/afisarea-rezultatelor.png" alt="votarea proiectelor">
+    <p class="step-green">Afișarea <br> rezultatelor</p>
+    <img class="finish py-3" src="./assets/images/finish.png" alt="finish">
+    <div class="date d-flex flex-column green">
+      <div class="start green">01.12.2024</div>
+      <div class="finish green">27.12.2024</div>
+    </div>
+  </div>
+</div> -->
+
+
 <div class="container steper mt-3 d-flex align-items-center justify-content-around mt-5">
-  <div class="step d-flex flex-column align-items-center justify-content-center">
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
     <img class="step-img" src="./assets/images/depunere-proiect.svg" alt="depunere-proiect">
-    <div class="title row pt-3">
+    <div class="title row">
       <div class="col-12">Depunerea</div>
       <div class="col-12">proiectelor</div>
     </div>
-    <img src="./assets/images/checked.svg" alt="checked" class="checked-step py-4">
+    <img src="./assets/images/checked.svg" alt="checked" class="checked-step">
     <div class="date">
       <div class="start">01.09.2024</div>
       <div class="finish">27.09.2024</div>
     </div>
   </div>
-  <div class="step d-flex flex-column align-items-center justify-content-center">
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
     <img class="step-img" src="./assets/images/analiza-proiectelor.svg" alt="analiza-proiectelor">
-    <div class="title row pt-3">
+    <div class="title row">
       <div class="col-12">Analiza</div>
       <div class="col-12">proiectelor</div>
     </div>
-    <img src="./assets/images/checked.svg" alt="checked" class="checked-step py-4">
+    <img src="./assets/images/checked.svg" alt="checked" class="checked-step">
     <div class="date">
       <div class="start">01.09.2024</div>
       <div class="finish">27.09.2024</div>
     </div>
   </div>
-  <div class="step d-flex flex-column align-items-center justify-content-center">
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
     <img class="step-img" src="./assets/images/votarea-proiectelor.svg" alt="votarea-proiectelor">
-    <div class="title row pt-3">
+    <div class="title row">
       <div class="col-12">Votarea</div>
       <div class="col-12">proiectelor</div>
     </div>
-    <img src="./assets/images/loader.svg" alt="loader" class="loader-step py-4">
+    <img src="./assets/images/loader.svg" alt="loader" class="loader-step">
     <div class="date">
       <div class="start">01.09.2024</div>
       <div class="finish">27.09.2024</div>
     </div>
   </div>
-  <div class="step d-flex flex-column align-items-center justify-content-center">
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
     <img class="step-img" src="./assets/images/afisarea-rezultatelor.svg" alt="afisarea-rezultatelor">
-    <div class="title row pt-3">
+    <div class="title row">
       <div class="col-12">Afișarea</div>
       <div class="col-12">rezultatelor</div>
     </div>
-    <div class="circle d-flex align-items-center justify-content-center">
-      <img src="./assets/images/finish-step.svg" alt="finish-step" class="finish-step py-4">
-    </div>
+    <img src="./assets/images/finish-step.svg" alt="finish-step" class="finish-step">
     <div class="date">
       <div class="start">01.09.2024</div>
       <div class="finish">27.09.2024</div>
@@ -170,3 +208,79 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Stil pentru containerul fiecărui pas */
+    .step {
+      position: relative;
+    }
+
+    /* Imaginea checked-step cu barele de progres */
+    .checked-step {
+      width: 30px;
+      height: 30px;
+      position: relative;
+    }
+
+    /* Bara de progres din stânga */
+    .checked-step::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: -50px; /* Ajustează după preferințe */
+      width: 40px;
+      height: 5px;
+      background-color: #4caf50; /* Verde pentru progres */
+      transform: translateY(-50%);
+    }
+
+    /* Bara de progres din dreapta */
+    .checked-step::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: -50px; /* Ajustează după preferințe */
+      width: 40px;
+      height: 5px;
+      background-color: #4caf50; /* Verde pentru progres */
+      transform: translateY(-50%);
+    }
+
+    /* Stilizarea altor elemente */
+    .step-img {
+      width: 50px;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .date {
+      text-align: center;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Structura HTML pentru step -->
+  <div class="step d-flex flex-column align-items-center justify-content-center gap-3">
+    <img class="step-img" src="./assets/images/depunere-proiect.svg" alt="depunere-proiect">
+    <div class="title row">
+      <div class="col-12">Depunerea</div>
+      <div class="col-12">proiectelor</div>
+    </div>
+    <img src="./assets/images/checked.svg" alt="checked" class="checked-step">
+    <div class="date">
+      <div class="start">01.09.2024</div>
+      <div class="finish">27.09.2024</div>
+    </div>
+  </div>
+
+</body>
+</html>

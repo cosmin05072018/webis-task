@@ -231,22 +231,27 @@ button.dropdown-toggle[aria-expanded="true"] {
   color: var(--bg-color);
 }
 
-.steper .step .title{
+.steper .step p{
   color: var(--bg-color);
   font-weight: 600;
   font-size: 25px !important;
   text-align: center !important;
 }
 
+.steper .step{
+  max-width: 50px !important;
+}
+
+/* .steper .step .step-green,
+.steper .step .date .green{
+  color: var(--green);
+}
+
 .steper .step .date{
   color: var(--bg-color);
   font-size: 15px;
   font-weight: 600;
-}
-
-.steper .step .circle{
-  height: 105px;
-}
+} */
 
 @media (max-width: 1200px) {
   .left-section {
@@ -326,14 +331,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   .hero-section .left-section{
     gap: 1px !important;
     z-index: 1;
-  }
-
-  .steper{
-    flex-wrap: wrap !important;
-  }
-
-  .step{
-    flex: 0 0 50%;
   }
 }
 

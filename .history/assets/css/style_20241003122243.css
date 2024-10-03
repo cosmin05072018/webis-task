@@ -333,7 +333,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .step{
-    flex: 0 0 50%;
+    flex: 0 0 48%;
   }
 }
 

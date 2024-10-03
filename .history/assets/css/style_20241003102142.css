@@ -244,9 +244,16 @@ button.dropdown-toggle[aria-expanded="true"] {
   font-weight: 600;
 }
 
-.steper .step .circle{
-  height: 105px;
+.checked-step::before {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid black;
+  width: 100%;
+  top: 20px;
+  left: -50%;
+  z-index: 2;
 }
+
 
 @media (max-width: 1200px) {
   .left-section {
@@ -326,14 +333,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   .hero-section .left-section{
     gap: 1px !important;
     z-index: 1;
-  }
-
-  .steper{
-    flex-wrap: wrap !important;
-  }
-
-  .step{
-    flex: 0 0 50%;
   }
 }
 

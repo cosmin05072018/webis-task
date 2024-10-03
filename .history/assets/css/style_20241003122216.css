@@ -329,11 +329,7 @@ button.dropdown-toggle[aria-expanded="true"] {
   }
 
   .steper{
-    flex-wrap: wrap !important;
-  }
-
-  .step{
-    flex: 0 0 50%;
+    flex-wrap: wrap;
   }
 }
 
