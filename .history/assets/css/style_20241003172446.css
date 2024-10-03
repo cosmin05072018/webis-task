@@ -268,38 +268,18 @@ button.dropdown-toggle[aria-expanded="true"] {
   width: 75%;
 }
 
-.domains-projects .card {
+.domains-projects .cards .card{
   background-color: var(--bg-color);
+  border-radius: 10px;
+  width: 30%;
 }
 
-.domains-projects .card .domain-image{
-  background-color: var(--white);
-  border-radius: 50%;
-  padding: 25px;
-  width: 130px;
-  height: 130px;
-  margin-top: -130px;
-}
-
-.domains-projects .card p{
+.domains-projects .cards .card h3{
   color: var(--white);
-  text-align: center;
-  width: 100%;
   font-size: 25px;
+  text-align: center;
+  font-weight: 600;
 }
-
-.domains-projects .card a{
-  border: 2px solid var(--white);
-  color: var(--white);
-  font-size: 15px;
-  transition: 0.5s linear ;
-}
-
-.domains-projects .card a:hover{
-  color: var(--bg-color);
-  background-color: var(--white);
-}
-
 
 @media (max-width: 1200px) {
   .left-section {

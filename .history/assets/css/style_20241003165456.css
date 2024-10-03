@@ -268,38 +268,39 @@ button.dropdown-toggle[aria-expanded="true"] {
   width: 75%;
 }
 
-.domains-projects .card {
+.domains-projects .cards .card{
   background-color: var(--bg-color);
+  border-radius: 10px;
+  width: 30%;
 }
 
-.domains-projects .card .domain-image{
+.domains-projects .cards .card .domain-image{
   background-color: var(--white);
-  border-radius: 50%;
-  padding: 25px;
+  padding: 12px;
   width: 130px;
   height: 130px;
-  margin-top: -130px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 16px 0px #266E9933;
+  margin-top: -20%;
 }
 
-.domains-projects .card p{
+.domains-projects .cards .card h3{
   color: var(--white);
-  text-align: center;
-  width: 100%;
   font-size: 25px;
+  text-align: center;
+  font-weight: 600;
 }
 
-.domains-projects .card a{
-  border: 2px solid var(--white);
+.domains-projects .cards .card .btn{
   color: var(--white);
-  font-size: 15px;
-  transition: 0.5s linear ;
+  border: 1px solid var(--white);
+  transition: linear;
 }
 
-.domains-projects .card a:hover{
-  color: var(--bg-color);
+.domains-projects .cards .card .btn:hover{
   background-color: var(--white);
+  color: var(--bg-color);
 }
-
 
 @media (max-width: 1200px) {
   .left-section {
