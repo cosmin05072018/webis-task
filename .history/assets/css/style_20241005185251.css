@@ -461,6 +461,20 @@ button.dropdown-toggle[aria-expanded="true"] {
   .step {
     flex: 0 0 50%;
   }
+
+  .info-section {
+    background-image: url("../images/bg-bugetarea-participativa-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .info-section .title {
+    font-size: 25px;
+  }
+  .info-section .text {
+    font-size: 14px;
+    font-weight: 400px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -543,39 +557,5 @@ button.dropdown-toggle[aria-expanded="true"] {
 
   .hero-section .right-section img {
     width: 90%;
-  }
-
-  .info-section {
-    background-image: url("../images/bg-bugetarea-participativa-mobile.png") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .info-section .row{
-    padding-bottom: 0px !important;
-  }
-
-  .info-section .title {
-    font-size: 25px;
-  }
-  .info-section .text {
-    font-size: 14px !important;
-    font-weight: 400 !important;
-  }
-
-  .info-section .right-section{
-    padding-right: 25px !important;
-  }
-
-  .info-section .right-section .subtitle{
-    font-size: 20px;
-  }
-
-  .info-section .right-section .buttons{
-    padding-bottom: 3rem !important;
-  }
-
-  .info-section .right-section .buttons a{
-    font-size: 14px !important;
   }
 }

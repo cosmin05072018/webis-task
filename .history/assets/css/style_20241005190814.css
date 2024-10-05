@@ -551,31 +551,15 @@ button.dropdown-toggle[aria-expanded="true"] {
     background-repeat: no-repeat;
   }
 
-  .info-section .row{
-    padding-bottom: 0px !important;
-  }
-
   .info-section .title {
     font-size: 25px;
   }
   .info-section .text {
     font-size: 14px !important;
-    font-weight: 400 !important;
-  }
-
-  .info-section .right-section{
-    padding-right: 25px !important;
+    font-weight: 400px;
   }
 
   .info-section .right-section .subtitle{
     font-size: 20px;
-  }
-
-  .info-section .right-section .buttons{
-    padding-bottom: 3rem !important;
-  }
-
-  .info-section .right-section .buttons a{
-    font-size: 14px !important;
   }
 }

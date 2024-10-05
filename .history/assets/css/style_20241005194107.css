@@ -551,10 +551,6 @@ button.dropdown-toggle[aria-expanded="true"] {
     background-repeat: no-repeat;
   }
 
-  .info-section .row{
-    padding-bottom: 0px !important;
-  }
-
   .info-section .title {
     font-size: 25px;
   }
@@ -569,10 +565,6 @@ button.dropdown-toggle[aria-expanded="true"] {
 
   .info-section .right-section .subtitle{
     font-size: 20px;
-  }
-
-  .info-section .right-section .buttons{
-    padding-bottom: 3rem !important;
   }
 
   .info-section .right-section .buttons a{
