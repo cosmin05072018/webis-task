@@ -328,10 +328,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   width: 100vw;
 }
 
-.info-section .row{
-  padding-bottom: 150px !important;
-}
-
 .info-section .title{
   color: var(--bg-color);
   font-size: 40px;

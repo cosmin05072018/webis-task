@@ -323,13 +323,9 @@ button.dropdown-toggle[aria-expanded="true"] {
 .info-section {
   border-radius: 0px 0px 40px 40px;
   background-image: url("../images/bg-bugetarea-participativa.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-}
-
-.info-section .row{
-  padding-bottom: 150px !important;
 }
 
 .info-section .title{
@@ -337,14 +333,6 @@ button.dropdown-toggle[aria-expanded="true"] {
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
-}
-
-.info-section .subtitle{
-  font-size: 25px;
-}
-
-.info-section .right-section .text{
-  font-size: 15px;
 }
 
 .info-section .text{
@@ -357,22 +345,8 @@ button.dropdown-toggle[aria-expanded="true"] {
   font-weight: 700;
 }
 
-.info-section .right-section .buttons a:nth-child(1){
-  color: var(--white) !important;
-  background-color: var(--bg-color) !important;
-}
-
-.info-section .right-section .buttons a{
-  padding: 17px !important;
-  transition: 0.5s linear;
-  border: none !important;
-  font-weight: 600 !important;
-  font-size: 15px !important;
-}
-
-.info-section .right-section .buttons a:hover{
-  color: var(--white) !important;
-  background-color: var(--gray-color) !important;
+.info-section img{
+  position: absolute;
 }
 
 @media (max-width: 1200px) {
