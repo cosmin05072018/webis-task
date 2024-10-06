@@ -455,10 +455,6 @@ footer ul li a .mail{
   height: 42px;
 }
 
-.footer .img-footer{
-  padding-left: 135px !important;
-}
-
 @media (max-width: 1200px) {
   .left-section {
     flex-direction: column;

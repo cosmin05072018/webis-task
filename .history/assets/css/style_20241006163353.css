@@ -406,34 +406,17 @@ footer {
   background-repeat: no-repeat;
 }
 
-footer .logo-footer{
-  width: 218px !important;
-}
-
-footer h5{
-  font-weight: 700;
-  font-size: 30px !important;
-}
-
-footer li a{
-  font-size: 15px;
-  font-weight: 400;
-  list-style: none !important;
-  text-decoration: none !important;
-}
-
-footer .text,
-footer .btn{
+footer .text{
   font-size: 14px;
   font-weight: 400;
 }
 
 footer .btn{
-  width: 160px;
   background-color: var(--white);
   color: var(--text-blue);
+  font-size: 15px;
   font-weight: 600;
-  transition: 0.5s linear;
+  transition: 0.5 linear;
 }
 
 
@@ -441,22 +424,6 @@ footer .btn:hover{
   border: 1px solid var(--white);
   color: var(--white);
   background: none;
-}
-
-footer ul li a .mail{
-  height: 12px !important;
-}
-
-.footer .social-media div{
-  border-radius: 50%;
-  background-color: var(--bg-color);
-  padding: 10px;
-  width: 42px;
-  height: 42px;
-}
-
-.footer .img-footer{
-  padding-left: 135px !important;
 }
 
 @media (max-width: 1200px) {
