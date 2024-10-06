@@ -378,20 +378,20 @@ button.dropdown-toggle[aria-expanded="true"] {
   margin-top: -230px !important;
 }
 
-.list-steps-section .steps-section .title{
+.list-steps-section .right-section .title{
   color: var(--bg-color);
   font-weight: 700;
   font-size: 40px;
 }
 
-.list-steps-section .steps-section ul li{
-  list-style: none;
-  font-size: 15px;
-  font-weight: 400;
+.list-steps-section .right-section ul li{
+
 }
 
-.list-steps-section .steps-section img{
+.list-steps-section .right-section ul li::marker{
   width: 16px;
+  height: 16px;
+  list-style-image: url('/assets/images/checked.svg');
 }
 
 @media (max-width: 1200px) {

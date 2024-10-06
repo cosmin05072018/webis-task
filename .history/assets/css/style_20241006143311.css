@@ -373,26 +373,27 @@ button.dropdown-toggle[aria-expanded="true"] {
   color: var(--white) !important;
   background-color: var(--gray-color) !important;
 }
-
+/*
 .list-steps-section .left-section img {
   margin-top: -230px !important;
 }
 
-.list-steps-section .steps-section .title{
+.list-steps-section .right-section .title{
   color: var(--bg-color);
   font-weight: 700;
   font-size: 40px;
 }
 
-.list-steps-section .steps-section ul li{
+.list-steps-section .right-section ul li{
   list-style: none;
   font-size: 15px;
   font-weight: 400;
 }
 
-.list-steps-section .steps-section img{
-  width: 16px;
-}
+.list-step-img{
+  background-image: url('/assets/images/checked.svg');
+  background-size: cover;
+} */
 
 @media (max-width: 1200px) {
   .left-section {

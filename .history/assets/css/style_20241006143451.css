@@ -390,8 +390,9 @@ button.dropdown-toggle[aria-expanded="true"] {
   font-weight: 400;
 }
 
-.list-steps-section .steps-section img{
-  width: 16px;
+.list-step-img{
+  background-image: url('/assets/images/checked.svg');
+  background-size: cover;
 }
 
 @media (max-width: 1200px) {
