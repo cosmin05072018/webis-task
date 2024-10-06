@@ -430,7 +430,7 @@ footer .btn{
 }
 
 footer .btn{
-  width: fit-content;
+  width: 160px;
   background-color: var(--white);
   color: var(--text-blue);
   font-weight: 600;

@@ -402,7 +402,7 @@ button.dropdown-toggle[aria-expanded="true"] {
 
 footer {
   background-image: url("/assets/images/footer.png");
-  background-size: 50%;
+  background-size: 45%;
   background-position: bottom left;
   background-repeat: no-repeat;
 }
@@ -430,7 +430,7 @@ footer .btn{
 }
 
 footer .btn{
-  width: fit-content;
+  width: 160px;
   background-color: var(--white);
   color: var(--text-blue);
   font-weight: 600;
