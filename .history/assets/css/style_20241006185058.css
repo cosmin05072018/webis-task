@@ -402,7 +402,7 @@ button.dropdown-toggle[aria-expanded="true"] {
 
 footer {
   background-image: url("/assets/images/footer.png");
-  background-size: 50%;
+  background-size: 65% 50%;
   background-position: bottom left;
   background-repeat: no-repeat;
 }
@@ -457,7 +457,7 @@ footer ul li a .mail{
 }
 
 .footer .img-footer{
-  padding-left: 230px !important;
+  padding-left: 135px !important;
 }
 
 @media (max-width: 1200px) {
