@@ -464,8 +464,6 @@ footer ul li a .mail{
 
   .sticky-top-mobile{
     position: sticky !important;
-    top: 0 !important;
-    z-index: 1020;
   }
 
   .left-section {
@@ -484,7 +482,6 @@ footer ul li a .mail{
   }
 
   .navbar-middle {
-    background-color: var(--white);
     padding: 0px !important;
   }
 

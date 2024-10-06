@@ -465,7 +465,6 @@ footer ul li a .mail{
   .sticky-top-mobile{
     position: sticky !important;
     top: 0 !important;
-    z-index: 1020;
   }
 
   .left-section {
